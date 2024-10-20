@@ -24,6 +24,4 @@ This project showcases an end-to-end solution for managing and analyzing persona
 - Access the Google Sheet via your account to customize the expense data.
 - Ensure data is input in the specified format for automatic calculations and visualizations to work correctly.
 
-#### **Collaborators:**
-- This project is part of my personal finance tracking initiative, completed during my Google Data Analytics Apprenticeship.+
 ---
