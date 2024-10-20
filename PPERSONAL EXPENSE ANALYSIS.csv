@@ -1,0 +1,28 @@
+Questions,Answers
+Find the unique values for each of the columns and also show how will you count the unique values,Unique values for each column can be found using functions like nunique() or drop_duplicates()
+How will you combine the category table data with original data,Use a VLOOKUP or JOIN operation to match CategoryID from the dataset with the category names
+What is the total cost spent on breakfast overall,Sum of all costs where CategoryID is 1 (Breakfast)
+What is the total cost spent on travel for Spain,"Filter data by Country = Spain and CategoryID = 5 (Travel), then sum the Cost column"
+How many rows are there in the data that have category as travel,Filter rows where CategoryID = 5 (Travel) and count the rows
+Find the month of the date using a calculation in a new column,"Use a formula like =TEXT(Date, ""MMMM"") to extract the month from the Date column"
+Use an if formula to show all costs greater than 100 as expensive and rest as cheap,"(=IF(Cost > 100, ""Expensive"", ""Cheap""))  to label the costs"
+Show a pivot table to show average cost per country,Pivot table with Country as rows and Average of Cost as values
+How would you display the first two letters of each country,"Use =LEFT(Country, 2) to extract the first two letters of each country"
+Write a function to check if a city name contains the letter 'v',"ANS = (=IF(ISNUMBER(SEARCH(""v"", City)), ""Yes"", ""No""))"
+"Write a formula to show the 2nd, 3rd, 4th letters of the column category","(=MID(Category, 2, 3)) to extract the 2nd, 3rd, and 4th letters"
+Which country cost the most money overall according to the data,"Group by Country, sum the Cost, and find the country with the highest total"
+"Conditional format rows which have country as Spain with red color, date before 12th July 2023 with blue color",Apply conditional formatting rules based on country and date criteria
+What was the highest value of cost in the given data,Use =MAX(Cost) to find the highest value in the Cost column
+Which category cost the most money in Peru,"Filter Country = Peru, group by CategoryID, and sum the costs"
+Create a dropdown list of cities and show the total cost of city depending on city selected,"Use Data Validation to create a dropdown, then SUMIF based on city"
+How many unique months are there in the data,Extract months from the Date column and use nunique() to count the unique months
+Create a grid with countries on one side and categories on the other & use index match to showcase formulas to display the total cost depending on a specific combination,Use INDEX MATCH or a pivot table to display total cost by country and category
+Use filter function to showcase only data when country is Colombia,Apply a filter on the Country column to show only Colombia
+Use text join function to show cities separated by a hyphen depending on the name of the country for one particular date of your choice,"Use TEXTJOIN(""-"", TRUE, ...) to concatenate cities for a specific date"
+Which country cost the highest money for travel,"Filter CategoryID = 5 (Travel), then find the country with the highest total travel cost"
+Insert a piechart to show cost breakdown per category,Create a pie chart with CategoryID as the categories and the sum of Cost as values
+Translate the word travel into Spanish,"The Spanish translation of ""Travel"" is ""Viajar"""
+Display the total cost spent per month & as % of total,"Group data by month, sum the Cost, and calculate the percentage relative to the total cost"
+How many days were spent in Spanish-speaking countries,"Filter data for Spanish-speaking countries, then count unique dates"
+Concatenate country and city separated by a hyphen (show 2 ways),"Use =Country & ""-"" & City or TEXTJOIN(""-"", TRUE, Country, City)"
+How would you remove duplicates from country,Use Remove Duplicates feature in Excel or filter using a pivot table
