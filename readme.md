@@ -1,4 +1,4 @@
-#### **Global Personal Expense Dashboard with Advanced Analytics in Google Sheets**
+#### **Global Personal Expense Tracking Report with analytics in Google Sheets**
 
 This project showcases an end-to-end solution for managing and analyzing personal expenses across multiple countries and categories using Google Sheets' powerful functionalities. The goal is to provide a structured, easy-to-navigate personal finance dashboard, enabling users to make data-driven decisions.
 
